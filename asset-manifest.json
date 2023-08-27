@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/break-clock/static/css/main.3e3b8084.css",
-    "main.js": "/break-clock/static/js/main.7e0b55b5.js",
+    "main.js": "/break-clock/static/js/main.b379f58c.js",
     "index.html": "/break-clock/index.html",
     "main.3e3b8084.css.map": "/break-clock/static/css/main.3e3b8084.css.map",
-    "main.7e0b55b5.js.map": "/break-clock/static/js/main.7e0b55b5.js.map"
+    "main.b379f58c.js.map": "/break-clock/static/js/main.b379f58c.js.map"
   },
   "entrypoints": [
     "static/css/main.3e3b8084.css",
-    "static/js/main.7e0b55b5.js"
+    "static/js/main.b379f58c.js"
   ]
 }
