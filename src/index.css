@@ -34,13 +34,13 @@ button {
 
 div > button {
   background-color: transparent;
-  color: #e74c3c; /* Red color */
+  color: #e74c3c; 
   font-size: 40px;
 }
 
 div button:nth-child(2) {
   background-color: transparent;
-  color: #3498db; /* Blue color */
+  color: #3498db; 
 }
 
 strong {
@@ -51,16 +51,43 @@ strong {
   border: 2px solid #ccc;
   border-radius: 10px;
   text-align: center;
-  margin: 20px 0;echo "# break-clock" >> README.md
+  margin: 20px 0;
   padding: 20px;
   background-color: #ffffff;
-  -webkit-box-shadow: 0 0 10px #000;
-        box-shadow: 0 0 10px #000;
+  -webkit-box-shadow: 0 0 10px #636363;
+  box-shadow: 0 0 10px #636363;
 }
+
+.timer > h2{
+  font-size: 40px;
+  font-weight: 500;
+}
+.timer > h3{
+  font-size: 60px;
+  margin: 10px;
+}
+
+
 
 .timer-wrapper > button {
   text-align: center;
   margin-left: 50px;
   background-color: transparent;
-  color: #27ae60; /* Green color */
+  color: #27ae60;
 }
+
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    padding: 10px; 
+  }
+  
+  .break-session-length {
+    max-width: 80%; 
+  }
+  
+  button {
+    padding: 6px;
+  }
+}
+
