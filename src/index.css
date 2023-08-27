@@ -1,13 +1,66 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #f7f7f7;
+  font-size: 40px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.wrapper {
+  display: flex;
+  max-height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper h2 {
+  margin: 0;
+}
+
+.break-session-length {
+  display: flex;
+  width: 700px;
+  justify-content: space-between;
+}
+
+.button-wrapper {
+  text-align: center;
+}
+
+button {
+  border: none;
+  padding: 8px;
+  font-size: 28px;
+  border-radius: 4px;
+}
+
+div > button {
+  background-color: transparent;
+  color: #e74c3c; /* Red color */
+  font-size: 40px;
+}
+
+div button:nth-child(2) {
+  background-color: transparent;
+  color: #3498db; /* Blue color */
+}
+
+strong {
+  margin: 0 8px;
+}
+
+.timer {
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  text-align: center;
+  margin: 20px 0;echo "# break-clock" >> README.md
+  padding: 20px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 0 10px #000;
+        box-shadow: 0 0 10px #000;
+}
+
+.timer-wrapper > button {
+  text-align: center;
+  margin-left: 50px;
+  background-color: transparent;
+  color: #27ae60; /* Green color */
 }
